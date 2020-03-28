@@ -1,0 +1,23 @@
+{
+  "name": "spam-guard",
+  "version": "1.0.0",
+  "description": "spam guard for JOA",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Knights-Of-Academia/spam-guard.git"
+  },
+  "author": "Knights of Academia",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Knights-Of-Academia/spam-guard/issues"
+  },
+  "homepage": "https://github.com/Knights-Of-Academia/spam-guard#readme",
+  "dependencies": {
+    "discord-anti-spam": "^2.4.1",
+    "discord.js": "^12.1.1"
+  }
+}
