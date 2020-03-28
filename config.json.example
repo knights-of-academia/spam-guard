@@ -1,0 +1,9 @@
+{
+    "token": "T0K3N",
+    "prefix": "!",
+    "botname": "Spam Guard",
+    "channels": {
+        "moderation": "0000000000"
+    },
+    "mentionThreshold": "10"
+}
