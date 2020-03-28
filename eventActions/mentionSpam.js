@@ -2,7 +2,7 @@ const config = require('../config.json')
 
 class mentionSpam {
     static async preventMentionSpam(message) {
-        if (message.mentions.members.size >= 10) {
+        if (message.mentions.members.size >= config.mentionThreshold) {
             const embedMessage = new Discord.RichEmbed()
                 .setColor('#ff0000')
                 .setTitle('🚩 Warning: Mention spam  🚩')
